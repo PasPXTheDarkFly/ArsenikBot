@@ -18,9 +18,9 @@ setInterval(function(){
     var heure = date.getHours();
     var minutes = date.getMinutes();
     console.log("ok")
-    if(heure === 17){
-        if(minutes === 4){
-            client.channels.cache.get(`956213428920389732`).send({embeds: [embedKoth1h]})
+    if(heure === 18){
+        if(minutes === 0){
+            client.channels.cache.get(`956241094620905543`).send({embeds: [embedKoth1h]})
         }
     }
 }, 60000)
