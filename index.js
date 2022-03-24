@@ -231,4 +231,4 @@ client.on("messageReactionAdd", async (reaction, user) => {
 
 
 
-client.login("OTUzNzU4OTE2NzUwMjIxMzUy.YjJPNQ.5XtVhZ0a5iwynC7t6YDn4U8XqFs");
+client.login("");
